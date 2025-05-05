@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   @font-face {
-    font-family: "AnalogMorpich";
+    font-family: "Analog Morpich";
     src: url("/fonts/Analog-Morpich.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
@@ -37,13 +37,13 @@ const GlobalStyle = createGlobalStyle`
     place-items: center;
     min-width: 320px;
     min-height: 100vh;
-    font-family: "AnalogMorpich", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; /* Combined font stack */
+    font-family: "Analog Morpich", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; /* Combined font stack */
   }
 
   h1 {
     font-size: 3.2em;
     line-height: 1.1;
-    font-family: "AnalogMorpich", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; /* Use custom font */
+    font-family: "Analog Morpich", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; /* Use custom font */
   }
 
   button {
