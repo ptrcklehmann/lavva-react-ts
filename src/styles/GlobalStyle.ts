@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   @font-face {
-    font-family: "Analog Morpich";
+    font-family: "AnalogMorpich";
     src: url("/fonts/Analog-Morpich.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
@@ -22,6 +22,12 @@ const GlobalStyle = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
   }
 
+  #canvas {
+    width: 600px;
+    height: 90vh;
+    filter: url('#goo');
+}
+
   a {
     font-weight: 500;
     color: #646cff;
@@ -37,13 +43,13 @@ const GlobalStyle = createGlobalStyle`
     place-items: center;
     min-width: 320px;
     min-height: 100vh;
-    font-family: "Analog Morpich", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; /* Combined font stack */
+    font-family: "AnalogMorpich", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; /* Combined font stack */
   }
 
   h1 {
     font-size: 3.2em;
     line-height: 1.1;
-    font-family: "Analog Morpich", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; /* Use custom font */
+    font-family: "AnalogMorpich", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; /* Use custom font */
   }
 
   button {

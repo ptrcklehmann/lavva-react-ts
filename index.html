@@ -19,8 +19,23 @@
   <link rel="manifest" href="/site.webmanifest" />
     <title>lavva</title>
   </head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
   <body>
     <div id="root"></div>
+    <svg class="hidden">
+      <defs>
+    <filter id="goo">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="9" result="blur" />
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -9" result="cm" />
+    </filter>
+      </defs>
+    <g filter="url(#goo)">
+      <path x="0" y="0" x d="M142.1 66.2c-9.5 36.2-40.3 55.1-71.1 50.1C39.9 110.8 8 92 1 66.2-6.1 40.6 24.6 5.8 72.1.5c47.8-5.2 79.6 29.8 70 65.7z" fill="url(#a)"/>
+    </g>
+  </svg>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

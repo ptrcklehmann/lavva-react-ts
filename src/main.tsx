@@ -1,11 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
-import GlobalStyle from "./styles/GlobalStyle.ts";
+import GlobalStyle from './styles/GlobalStyle.ts'; // Import GlobalStyle
 
-createRoot(document.getElementById('root')!).render(
+createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <GlobalStyle />
+    <GlobalStyle /> {/* Add GlobalStyle here */}
     <App />
-  </StrictMode>,
-)
+  </StrictMode>
+);
